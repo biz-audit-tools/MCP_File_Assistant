@@ -1,0 +1,13 @@
+# Безопасный учебный пример для Windows.
+# Скопируйте эту секцию в настройки Codex и замените только пример пути.
+# Файл не содержит токенов, ключей API или личных настроек.
+
+[mcp_servers.filesystem]
+command = "npx.cmd"
+args = [
+  "-y",
+  "@modelcontextprotocol/server-filesystem",
+  "C:\\path\\to\\MCP_File_Assistant",
+]
+enabled = true
+startup_timeout_sec = 20

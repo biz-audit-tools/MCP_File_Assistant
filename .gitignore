@@ -1,0 +1,40 @@
+# Личные настройки Codex и агентов
+.codex/
+.agents/
+**/config.toml
+.mcp.json
+
+# Секреты и учётные данные
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*token*
+*secret*
+credentials*
+
+# Локальные vault-файлы и рабочие каталоги обезличивания
+*.vault.json
+.docs-masked-work/
+
+# Зависимости и виртуальные окружения
+node_modules/
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+
+# Временные и служебные файлы
+*.tmp
+*.temp
+*.bak
+*.log
+~$*
+.DS_Store
+Thumbs.db
+
+# Локальные установочные пакеты не относятся к учебным результатам
+*.msi
